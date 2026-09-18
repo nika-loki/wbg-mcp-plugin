@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mls": {
+      "type": "http",
+      "url": "https://mls-mcp-i6dr.onrender.com/mcp"
+    }
+  }
+}

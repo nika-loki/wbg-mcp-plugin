@@ -1,8 +1,20 @@
 {
   "name": "wbg-mls",
+  "displayName": "WBG MLS",
   "description": "WBG MLS analytics: 14 MCP tools + the four classic real-estate workflows (showing prep, listing appointment, farm monitor, buyer-match sweep).",
-  "version": "2026.9.18",
+  "version": "2026.918.0",
   "author": {
     "name": "The WB Group"
-  }
+  },
+  "homepage": "https://github.com/nika-loki/wbg-mcp-plugin",
+  "repository": {
+    "url": "https://github.com/nika-loki/wbg-mcp-plugin"
+  },
+  "keywords": [
+    "real-estate",
+    "mls",
+    "market-analytics",
+    "comps",
+    "san-diego"
+  ]
 }

@@ -11,7 +11,9 @@ what to disclose) stay with the agent — you supply the data, clearly sourced.
 
 ## Inputs
 
-Ask the user for any you don't already have:
+Collect these before starting. If the skill was invoked with arguments
+(`/wbg-mls:showing-prep <values…>`), `$ARGUMENTS` holds them — map them to
+the inputs below when they fit (e.g. an MLS number is the subject):
 
 - **subject** — MLS number (SDMLS or CRMLS NDP/PTP/MB/SW) or address (example: 260004759)
 

@@ -10,7 +10,9 @@ what's selling, at what pace, at what discount, against whom.
 
 ## Inputs
 
-Ask the user for any you don't already have:
+Collect these before starting. If the skill was invoked with arguments
+(`/wbg-mls:listing-appointment <values…>`), `$ARGUMENTS` holds them — map them to
+the inputs below when they fit (e.g. an MLS number is the subject):
 
 - **zips** — comma-separated 5-digit zips (example: 92102,92113)
 

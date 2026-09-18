@@ -1,6 +1,6 @@
 {
-  "version": "2026.9.18",
-  "content_hash": "c3023397cc1a07ad7722a2f6e73f337f69f512c31d3e08fe6a386dcb84ad5900",
-  "with_mcp": false,
-  "generated": "2026-09-18T04:29:07+00:00"
+  "version": "2026.918.0",
+  "content_hash": "26fc655fa17bbad24344301f53560275988b71a250d8c619333fdf545155695b",
+  "with_mcp": true,
+  "generated": "2026-09-18T04:42:12+00:00"
 }

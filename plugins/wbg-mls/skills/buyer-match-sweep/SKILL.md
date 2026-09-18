@@ -11,7 +11,9 @@ hand back a ranked shortlist with a quick comp check on each — the
 
 ## Inputs
 
-Ask the user for any you don't already have:
+Collect these before starting. If the skill was invoked with arguments
+(`/wbg-mls:buyer-match-sweep <values…>`), `$ARGUMENTS` holds them — map them to
+the inputs below when they fit (e.g. an MLS number is the subject):
 
 - **zips** — comma-separated 5-digit zips (example: 92101,92103)
 - **price_max** — price ceiling (example: 950000)
