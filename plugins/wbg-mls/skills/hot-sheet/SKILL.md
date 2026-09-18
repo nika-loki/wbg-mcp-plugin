@@ -38,6 +38,16 @@ the inputs below when they fit (e.g. an MLS number is the subject):
 4. `saved_searches` with `action='run'` on the new search to fire a first
    digest immediately and confirm delivery works.
 
+## Output format
+
+- `# Hot sheet — <zips> · <date>`
+- **Today: N new · M price cuts · K status moves** — one bold line
+- **Call list** — table, new actives first, then cuts deepest-first:
+  Address | Price | Δ | DOM | Beds | Agent | Office
+- **Worth a call today** — 2-3 bullets: the cuts (a seller getting real) and
+  fresh Pendings (a fall-through opportunity)
+- Footer: the sweep window ("since <date>") + digest status, one line.
+
 ## Traps
 
 - Deletions purge on a ~2-3 day cadence — absence is not proof of deletion.

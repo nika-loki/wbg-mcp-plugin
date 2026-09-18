@@ -31,6 +31,15 @@ the inputs below when they fit (e.g. an MLS number is the subject):
 4. Close with the coverage discipline: any pre-floor question gets the
    partial-answer caveat said OUT LOUD, not just in a footer.
 
+## Output format
+
+- `# Market one-pager — <zips>`
+- **Headline strip** — closings · median $ · sold-to-list % · months of inventory
+- **What's selling** — price bands table: Band | Closings | Share | Median DOM
+- **Where it's going** — the 2-year trend in two sentences
+- **Who you're against** — board table: Agent | Sides | Volume | Office
+- Footer: the `[report filters]` line + coverage caveat, repeated out loud.
+
 ## Traps
 
 - Every number needs the place + timeframe said with it; the footer carries

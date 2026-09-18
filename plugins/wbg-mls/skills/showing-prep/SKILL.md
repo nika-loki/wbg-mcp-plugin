@@ -36,6 +36,18 @@ the inputs below when they fit (e.g. an MLS number is the subject):
    the last 90 days — months of inventory is the market-context slide
    (seller's <4mo vs buyer's >6mo).
 
+## Output format
+
+One clean markdown deliverable — never raw tool dumps:
+
+- `# Showing prep — <address>`
+- **The 30-second read** — 3 bullets: price + status, market tempo, one watch-out
+- **Comps** — table: Address | Closed | $ | SP/LP | DOM | Note (say which comps carry the number)
+- **Hazard & permits** — one line per layer (fire / fault / flood / permits)
+- **Listing notes** — showing-relevant remarks; MLS-confidential items marked "agent-only"
+- **Market snapshot** — months of inventory + what it means for THIS buyer
+- Footer: data windows + coverage floor, one line.
+
 ## Traps
 
 - Never quote an all-time / "ever" count without the coverage-floor caveat.

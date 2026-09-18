@@ -31,6 +31,14 @@ the inputs below when they fit (e.g. an MLS number is the subject):
 4. Present a table (address, price, Δprice if cut, DOM, beds/baths, the
    comp verdict) + the caveat line.
 
+## Output format
+
+- `# Buyer matches — <zips> ≤ $<price_max> · last 48h`
+- **N matches** — or the honest "zero matches in 48h"; never pad
+- **Shortlist** — ranked table: Address | Price | Δ if cut | Beds/Baths | DOM | Comp verdict
+- **Top pick** — one sentence on why + the comp support behind it
+- Footer: sweep window + caveat, one line.
+
 ## Traps
 
 - Say the sweep window out loud ("since <date>") — it bounds the claim.

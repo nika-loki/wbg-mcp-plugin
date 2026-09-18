@@ -37,6 +37,15 @@ the inputs below when they fit (e.g. an MLS number is the subject):
    one-liner on what would have to be true to justify pricing above the
    range. Present the 2-3 comps that carry the number, named by address.
 
+## Output format
+
+- `# Pricing opinion — <address>`
+- **Recommended range: $X – $Y** — one bold line up front, never a single number
+- **The comps that carry it** — table: Address | Closed | $ | vs subject (superior / equal / inferior) | SP/LP | DOM
+- **Market tempo** — months of inventory + seller's/buyer's call; **Direction** — 12-month trend in one sentence
+- **To price above the range** — what would have to be true (2-3 bullets)
+- Footer: data window + any relaxation caveats, one line.
+
 ## Traps
 
 - Never average the comps into a single number and call it the price — the

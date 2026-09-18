@@ -33,6 +33,17 @@ the inputs below when they fit (e.g. an MLS number is the subject):
    remarks + showing instructions (MLS-confidential — never read private
    remarks to buyers verbatim).
 
+## Output format
+
+- `# Open-house round — <zips> · Sat–Sun`
+- **The round: N opens** — one bold line
+- **Schedule** — chronological table:
+  Time | Stop | Price | Beds | DOM | Agent | Phone | Sit?
+  (mark opens you could SIT with a ★ — the exclude-office filter applied)
+- **Cheat-sheet notes** — 1-2 lines for stops you'll sit or preview
+  (MLS-confidential items marked "agent-only")
+- Footer: "confirm times in the MLS" reminder, one line.
+
 ## Traps
 
 - The window must be within today-7..+60 days and at most 14 days wide —
