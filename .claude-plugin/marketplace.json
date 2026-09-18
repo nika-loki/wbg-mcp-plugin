@@ -11,7 +11,7 @@
       "name": "wbg-mls",
       "source": "./plugins/wbg-mls",
       "description": "WBG MLS analytics: 14 MCP tools + the four classic real-estate workflows (showing prep, listing appointment, farm monitor, buyer-match sweep).",
-      "version": "2026.918.0",
+      "version": "2026.918.1",
       "category": "productivity"
     }
   ]

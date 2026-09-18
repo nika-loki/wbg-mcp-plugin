@@ -12,7 +12,7 @@ methodology only, no secrets.
 
 **Claude Code / Desktop with plugins:** Customize → Plugins → Personal
 plugins → **+** → add marketplace from this GitHub repo → Install
-**WBG MLS** (v2026.918.0).
+**WBG MLS** (v2026.918.1).
 
 **No marketplace? Direct load (works even if marketplace sync fails):**
 
