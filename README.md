@@ -2,7 +2,8 @@
 
 Real-estate market analytics for San Diego County — 14 MCP tools (market
 reports, comps, open houses, farm monitoring, agent production boards,
-hazard/permit context) plus the four classic workflow skills. The MCP server
+hazard/permit context) plus six agent workflow skills — showing prep, pricing
+opinion, hot sheet, buyer matches, open-house round, listing appointment. The MCP server
 is bundled (`.mcp.json`): first tool use triggers an OAuth login (Google
 sign-in; thewbgroup.com, whisselrealty.com and kylewhissel.com are
 auto-approved). All data access is OAuth-gated per user; this repo carries
@@ -12,7 +13,7 @@ methodology only, no secrets.
 
 **Claude Code / Desktop with plugins:** Customize → Plugins → Personal
 plugins → **+** → add marketplace from this GitHub repo → Install
-**WBG MLS** (v2026.918.2).
+**WBG MLS** (v2026.919.0).
 
 **No marketplace? Direct load (works even if marketplace sync fails):**
 

@@ -2,6 +2,8 @@
 type: fixed
 ---
 
+[MOCK DATA — synthetic fixtures, not real listings; never quote as market facts]
+
 [report filters: zips=(92102,92113) 2026-04-20..2026-09-18 status=closed]
 closings	median_close_price	avg_close_price	sp_to_lp_pct
 161	640000	655000	97.9

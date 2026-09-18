@@ -1,8 +1,8 @@
 {
   "name": "wbg-mls",
   "displayName": "WBG MLS",
-  "description": "WBG MLS analytics: 14 MCP tools + the four classic real-estate workflows (showing prep, listing appointment, farm monitor, buyer-match sweep).",
-  "version": "2026.918.2",
+  "description": "WBG MLS analytics: 14 MCP tools + six agent workflows (showing prep, pricing opinion, hot sheet, buyer matches, open-house round, listing appointment).",
+  "version": "2026.919.0",
   "author": {
     "name": "The WB Group"
   },

@@ -2,6 +2,8 @@
 type: fixed
 ---
 
+[MOCK DATA — synthetic fixtures, not real listings; never quote as market facts]
+
 layer	value	source
 fire_lra	High	CalFire LRA 2025
 fema	X (minimal)	FEMA NFHL

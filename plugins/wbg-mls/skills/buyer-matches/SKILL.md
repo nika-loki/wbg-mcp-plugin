@@ -1,18 +1,18 @@
 ---
-name: buyer-match-sweep
+name: buyer-matches
 description: "Run a buyer profile against the last 48 hours of new listings and price cuts; ranked shortlist with quick comp checks."
 ---
 
-# Buyer-match sweep — 48h matches for a buyer profile
+# Buyer matches — fresh fits in the last 48 hours
 
 Purpose: run a buyer's criteria against the last 48 hours of movement and
 hand back a ranked shortlist with a quick comp check on each — the
-"anything new for my buyer" answer.
+"anything new for my buyer?" answer.
 
 ## Inputs
 
 Collect these before starting. If the skill was invoked with arguments
-(`/wbg-mls:buyer-match-sweep <values…>`), `$ARGUMENTS` holds them — map them to
+(`/wbg-mls:buyer-matches <values…>`), `$ARGUMENTS` holds them — map them to
 the inputs below when they fit (e.g. an MLS number is the subject):
 
 - **zips** — comma-separated 5-digit zips (example: 92101,92103)
