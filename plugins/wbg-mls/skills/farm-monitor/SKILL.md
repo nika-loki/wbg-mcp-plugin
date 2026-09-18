@@ -1,6 +1,6 @@
 ---
 name: farm-monitor
-description: "Morning delta for a farm area \u2014 today's new/cut/status call list plus the saved_searches webhook digest that delivers it daily."
+description: "Morning delta for a farm area — today's new/cut/status call list plus the saved_searches webhook digest that delivers it daily."
 ---
 
 # Farm monitor — daily delta on a farm area
