@@ -1,12 +1,15 @@
 {
-  "name": "WBG Internal",
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wbg-internal",
+  "description": "WBG internal MLS analytics plugin marketplace",
+  "version": "1.0.0",
   "owner": {
     "name": "The WB Group"
   },
   "plugins": [
     {
       "name": "wbg-mls",
-      "source": "./",
+      "source": "./plugins/wbg-mls",
       "description": "WBG MLS analytics: 14 MCP tools + the four classic real-estate workflows (showing prep, listing appointment, farm monitor, buyer-match sweep).",
       "version": "2026.9.18"
     }

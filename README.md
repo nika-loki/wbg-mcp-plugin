@@ -8,7 +8,7 @@ is OAuth-gated per user; this repo carries methodology only, no secrets.
 ## Install (one-time)
 
 1. Claude Desktop → Customize → Plugins → Personal plugins → **+**
-2. Add marketplace from this GitHub repo
+2. Add marketplace from this GitHub repo (`wbg-internal`)
 3. Install **WBG MLS** (v2026.9.18)
 4. Connect the data plane (one paste, already a working flow): Claude Desktop →
    Settings → Connectors → Add custom connector →
