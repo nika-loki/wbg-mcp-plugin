@@ -1,13 +1,12 @@
 ---
 name: hot-sheet
-description: "The morning hot sheet for a farm area — today's new/cut/status call list plus the saved_searches webhook digest that delivers it every morning."
+description: "The morning hot sheet for a farm area — today's new/cut/status changes as a call list, run on demand."
 ---
 
 # Hot sheet — your farm's morning changes
 
 Purpose: the hot sheet — the morning report every agent runs: what changed
-in the farm (new listings, price cuts, status moves), as today's call list,
-and delivered every morning after via webhook digest.
+in the farm (new listings, price cuts, status moves), as today's call list.
 
 ## Inputs
 
@@ -18,7 +17,7 @@ the inputs below when they fit (e.g. an MLS number is the subject):
 - **zips** — comma-separated 5-digit zips (example: 92102)
 - **price_max** — optional price ceiling (example: 1000000)
 
-## Steps — today's hot sheet
+## Steps
 
 1. `changed_listings` with `since=<yesterday's date>` (first run: 7 days
    back), `zips`, `kinds=['new','price_change']` — the call list. Price
@@ -28,15 +27,10 @@ the inputs below when they fit (e.g. an MLS number is the subject):
 2. Assemble the list by fit: new actives first, then cuts deepest-first.
    Include agent + office columns for the touch-point.
 
-## Steps — make it arrive every morning
-
-3. Ask the user ONCE for a Slack-style webhook URL (https only), then
-   `saved_searches` with `action='create'`, `tool='changed_listings'`,
-   `args={{"zips": [...], "kinds": ["new","price_change"]}}` (leave `since`
-   out — the runner substitutes the last 24h), `schedule='daily'`,
-   `webhook_url=<the url>`. Args are validated at save time.
-4. `saved_searches` with `action='run'` on the new search to fire a first
-   digest immediately and confirm delivery works.
+NOTE: recurring delivery is NOT available yet — do not promise scheduled
+updates and do not ask the user for any delivery URL. If they ask for
+every-morning updates, say it's coming and run the hot sheet on demand
+for today.
 
 ## Output format
 
@@ -46,11 +40,10 @@ the inputs below when they fit (e.g. an MLS number is the subject):
   Address | Price | Δ | DOM | Beds | Agent | Office
 - **Worth a call today** — 2-3 bullets: the cuts (a seller getting real) and
   fresh Pendings (a fall-through opportunity)
-- Footer: the sweep window ("since <date>") + digest status, one line.
+- Footer: the sweep window ("since <date>"), one line.
 
 ## Traps
 
 - Deletions purge on a ~2-3 day cadence — absence is not proof of deletion.
 - The change log keeps 60 days; older history needs the current-state tools
   (`market_analytics`, `run_sql`), not the delta feed.
-- Digests are private per account — create with the user's own key/session.

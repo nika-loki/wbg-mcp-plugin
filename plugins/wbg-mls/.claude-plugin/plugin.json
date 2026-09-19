@@ -2,7 +2,7 @@
   "name": "wbg-mls",
   "displayName": "WBG MLS",
   "description": "WBG MLS analytics: 14 MCP tools + six agent workflows (showing prep, pricing opinion, hot sheet, buyer matches, open-house round, listing appointment).",
-  "version": "2026.919.1",
+  "version": "2026.919.2",
   "author": {
     "name": "The WB Group"
   },
