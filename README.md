@@ -8,7 +8,7 @@ Ask in plain English. Get clean, ready-to-use answers — instant MLS-number
 lookups, comps, pricing support, market one-pagers, hot sheets, buyer
 matches, weekend open-house plans — straight from the MLS.
 
-**v2026.919.4** · San Diego County (SDMLS + CRMLS feeds) · For WBG agents
+**v2026.919.5** · San Diego County (SDMLS + CRMLS feeds) · For WBG agents
 
 </div>
 
@@ -72,11 +72,11 @@ TC. Name an MLS number, an address, or zips and let it run.
 
 ### 🔎 Search by MLS number
 
-The fastest ask: one MLS number — off a sign, a flyer, a client text — resolved to the full record: status, prices, dates, agent + office, photos, agent-only notes.
+The fastest ask: one MLS number — or a pasted batch, up to 8 in one call — resolved to the full record: status, prices, dates, agent + office, photos rendered inline, agent-only notes.
 
 > **Try saying:** _"Client texted me a number off a yard sign — MLS 260016635. Look it up: what is it, what's it listed at, and who do I call?_"
 
-**You get:** The **full record** for one number — status, prices, the date ladder, agent + phones + office, photos on request — with agent-only notes marked.
+**You get:** The **full record** for one number — or a comparison table for a pasted batch (up to 8 in one call) — status, prices, dates, agent + phones, photos rendered inline on request, agent-only notes marked.
 
 <details><summary>Power move — the exact command</summary>
 
@@ -268,4 +268,4 @@ above.
 </details>
 
 ---
-<sub>Built for The WB Group · Generated 2026-09-19 from the playbook registry · v2026.919.4</sub>
+<sub>Built for The WB Group · Generated 2026-09-19 from the playbook registry · v2026.919.5</sub>
