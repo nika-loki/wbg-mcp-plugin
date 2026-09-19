@@ -4,11 +4,11 @@
 
 **Your AI copilot for San Diego real-estate data.**
 
-Ask in plain English. Get clean, ready-to-use answers — comps, pricing
-support, market one-pagers, hot sheets, buyer matches, weekend open-house
-plans — straight from the MLS.
+Ask in plain English. Get clean, ready-to-use answers — instant MLS-number
+lookups, comps, pricing support, market one-pagers, hot sheets, buyer
+matches, weekend open-house plans — straight from the MLS.
 
-**v2026.919.3** · San Diego County (SDMLS + CRMLS feeds) · For WBG agents
+**v2026.919.4** · San Diego County (SDMLS + CRMLS feeds) · For WBG agents
 
 </div>
 
@@ -65,10 +65,24 @@ claude plugin install wbg-mls@wbg-internal
 
 ---
 
-## ✨ What you can ask — the six workflows
+## ✨ What you can ask — the seven workflows
 
 Everything below works in **plain English** — just ask like you'd text your
 TC. Name an MLS number, an address, or zips and let it run.
+
+### 🔎 Search by MLS number
+
+The fastest ask: one MLS number — off a sign, a flyer, a client text — resolved to the full record: status, prices, dates, agent + office, photos, agent-only notes.
+
+> **Try saying:** _"Client texted me a number off a yard sign — MLS 260016635. Look it up: what is it, what's it listed at, and who do I call?_"
+
+**You get:** The **full record** for one number — status, prices, the date ladder, agent + phones + office, photos on request — with agent-only notes marked.
+
+<details><summary>Power move — the exact command</summary>
+
+`/wbg-mls:search-by-mls-number` with the inputs it needs (`mls_number`). Example: ``/wbg-mls:search-by-mls-number` 260004759`
+
+</details>
 
 ### 🔑 Showing prep
 
@@ -240,7 +254,7 @@ above.
 - This plugin bundles 14 MCP tools (market_analytics, market_report, comps,
   get_listing, changed_listings, open_houses, agent_production,
   property_context, saved_searches, run_analytics, run_sql, count_rows,
-  explore_schema, sync_status) + the six workflow skills above, with the
+  explore_schema, sync_status) + the seven workflow skills above, with the
   remote server declared in `.mcp.json` (OAuth on first use via the Supabase
   AS; RFC 9728 discovery at origin root).
 - Health: `https://mls-mcp-i6dr.onrender.com/health` → `{"ok": true}`.
@@ -254,4 +268,4 @@ above.
 </details>
 
 ---
-<sub>Built for The WB Group · Generated 2026-09-19 from the playbook registry · v2026.919.3</sub>
+<sub>Built for The WB Group · Generated 2026-09-19 from the playbook registry · v2026.919.4</sub>

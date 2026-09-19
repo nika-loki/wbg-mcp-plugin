@@ -10,8 +10,8 @@
     {
       "name": "wbg-mls",
       "source": "./plugins/wbg-mls",
-      "description": "WBG MLS analytics: 14 MCP tools + six agent workflows (showing prep, pricing opinion, hot sheet, buyer matches, open-house round, listing appointment).",
-      "version": "2026.919.3",
+      "description": "WBG MLS analytics: 14 MCP tools + seven agent workflows (MLS-number lookup, showing prep, pricing opinion, hot sheet, buyer matches, open-house round, listing appointment).",
+      "version": "2026.919.4",
       "category": "productivity"
     }
   ]
